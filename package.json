@@ -1,0 +1,19 @@
+{
+  "name": "ts-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testtask.js",
+  "scripts": {
+    "dev": "concurrently --names \"fuck,fuck2\" \"tsc testtask.ts --watch\" \"nodemon testtask.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.9",
+    "typescript": "^3.6.4"
+  }
+}

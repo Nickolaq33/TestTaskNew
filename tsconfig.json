@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "pretty": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": true,
+    "charset": "utf8",
+    "watch": true,
+    "moduleResolution": "node",
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./"
+  }
+}
